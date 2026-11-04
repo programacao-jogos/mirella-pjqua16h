@@ -2,8 +2,6 @@
 
 ## Dimensão narrativa
 
-### TESTE
-
 * **Dimensão (2D):** o jogo possui uma visão Top-Down durante a exploração e utiliza o estilo Platform nas cenas de combate.
 * **Gênero:** Fantasia, Medieval e Luta.
 * **Essência:** Fantasia.
