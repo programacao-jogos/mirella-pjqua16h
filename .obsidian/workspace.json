@@ -11,17 +11,14 @@
             "id": "6c57eb9827bf6835",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SuperHuman(game)/mind map/SuperHuman.canvas",
-                "viewState": {
-                  "x": -140,
-                  "y": 470.0020308233485,
-                  "zoom": -0.7921243306648916
-                }
+                "file": "obsidianNotesMirella/progJogos/github.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SuperHuman"
+              "icon": "lucide-file",
+              "title": "github"
             }
           }
         ]
@@ -191,10 +188,14 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "fbd7edd85a0a723d",
+  "active": "6c57eb9827bf6835",
   "lastOpenFiles": [
-    "SuperHuman(game)/mind map/1° cena- biblioteca.md",
+    "materialDeEstudos/gitGithub.md",
+    "obsidianNotesMirella/progJogos/github.md",
+    "materialDeEstudos/Sigla Bug.md",
+    "materialDeEstudos/CSharp.md",
     "SuperHuman(game)/mind map/SuperHuman.canvas",
+    "SuperHuman(game)/mind map/1° cena- biblioteca.md",
     "SuperHuman(game)/mind map/Imagens do SuperHuman/![[Pasted image 20261027221327.png.md",
     "SuperHuman(game)/mind map/Imagens do SuperHuman/Pasted image 20261027221335.png",
     "SuperHuman(game)/mind map/Imagens do SuperHuman/Pasted image 20261027221327.png",
@@ -208,10 +209,6 @@
     "SuperHuman(game)/mind map/Imagens do SuperHuman/Pasted image 20261027210916.png",
     "SuperHuman(game)/mind map/Imagens do SuperHuman/Pasted image 20261027210815.png",
     "SuperHuman(game)/History.md",
-    "SuperHuman(game)",
-    "obsidianNotesMirella/progJogos/github.md",
-    "materialDeEstudos/gitGithub.md",
-    "materialDeEstudos/Sigla Bug.md",
-    "materialDeEstudos/CSharp.md"
+    "SuperHuman(game)"
   ]
 }
