@@ -2,69 +2,56 @@
 
 [ext_resource type="PackedScene" uid="uid://c1ao4h4gke0dl" path="res://scenes/player.tscn" id="1_0x1uh"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y7dx1"]
+size = Vector2(8011, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hiijk"]
+size = Vector2(76, 86)
+
 [node name="world01" type="Node2D" unique_id=1353103668]
 
 [node name="arena_visual" type="Polygon2D" parent="." unique_id=66221875]
-color = Color(0.105882, 0.129412, 0.168627, 1)
+position = Vector2(21, -7)
+scale = Vector2(3.4756942, 2.9637344)
+color = Color(0.29473877, 0.18379062, 0.11318728, 0.7294118)
 polygon = PackedVector2Array(0, 0, 2304, 0, 2304, 1296, 0, 1296)
+uv = PackedVector2Array(0, 0, 2304, 0, 2302.5615, 666.7264, 2304, 1296, 0, 1296)
 
 [node name="casas" type="Node2D" parent="." unique_id=2085205331]
 
-[node name="house_label" type="Label" parent="casas" unique_id=1862154676]
-offset_left = 1327.0
-offset_top = 363.0
-offset_right = 1443.0
-offset_bottom = 389.0
+[node name="house1" type="StaticBody2D" parent="casas" unique_id=1064807513]
+position = Vector2(1588, 46)
+
+[node name="visual" type="Polygon2D" parent="casas/house1" unique_id=1700742625]
+position = Vector2(-93.84081, 256.99994)
+scale = Vector2(22.62784, 9.562498)
+color = Color(0.2505539, 0.1951416, 0.17117953, 1)
+polygon = PackedVector2Array(-56, -48, -56, -48, 296, -48, 296, -48)
+uv = PackedVector2Array(-56, -48, -56, -32, 296, -32, 296, -48)
+
+[node name="collision" type="CollisionShape2D" parent="casas/house1" unique_id=1334960592]
+position = Vector2(2426.5, -61)
+shape = SubResource("RectangleShape2D_y7dx1")
+
+[node name="house2" type="StaticBody2D" parent="casas" unique_id=1732142623]
+position = Vector2(915, 206)
+metadata/_edit_group_ = true
+
+[node name="visual" type="Polygon2D" parent="casas/house2" unique_id=794646919]
+polygon = PackedVector2Array(-24, -40, -24, 8, 56, 8, 56, -40, 16, -72)
+uv = PackedVector2Array(-24, -40, -24, 8, 48, 8, 48, -40, 16, -72)
+
+[node name="house_label" type="Label" parent="casas/house2" unique_id=875789191]
+offset_left = -11.0
+offset_top = -12.0
+offset_right = 91.0
+offset_bottom = 11.0
 text = "CASA 1"
+horizontal_alignment = 1
 
-[node name="house_label2" type="Label" parent="casas" unique_id=2036079401]
-offset_left = 942.0
-offset_top = 631.0
-offset_right = 1058.0
-offset_bottom = 657.0
-text = "CASA 2"
-
-[node name="house_label3" type="Label" parent="casas" unique_id=1423989326]
-offset_left = 1667.0
-offset_top = 650.0
-offset_right = 1783.0
-offset_bottom = 676.0
-text = "CASA 3"
-
-[node name="house_label4" type="Label" parent="casas" unique_id=316183515]
-offset_left = 1325.0
-offset_top = 897.0
-offset_right = 1441.0
-offset_bottom = 923.0
-text = "CASA 4"
-
-[node name="house_label5" type="Label" parent="casas" unique_id=1515949222]
-offset_left = 528.0
-offset_top = 953.0
-offset_right = 644.0
-offset_bottom = 976.0
-text = "CASA 5"
-
-[node name="house_label6" type="Label" parent="casas" unique_id=1971982605]
-offset_left = 482.0
-offset_top = 327.0
-offset_right = 598.0
-offset_bottom = 350.0
-text = "CASA 6"
-
-[node name="house_label7" type="Label" parent="casas" unique_id=475061915]
-offset_left = 2092.0
-offset_top = 300.0
-offset_right = 2208.0
-offset_bottom = 323.0
-text = "CASA 6"
-
-[node name="house_label8" type="Label" parent="casas" unique_id=1811148048]
-offset_left = 2081.0
-offset_top = 1033.0
-offset_right = 2197.0
-offset_bottom = 1056.0
-text = "CASA 8"
+[node name="Collision2" type="CollisionShape2D" parent="casas/house2" unique_id=1992951472]
+position = Vector2(17, -33)
+shape = SubResource("RectangleShape2D_hiijk")
 
 [node name="player" parent="." unique_id=640426988 instance=ExtResource("1_0x1uh")]
 position = Vector2(1400, 680)
